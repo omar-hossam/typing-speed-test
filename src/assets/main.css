@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+/* Regular */
+@font-face {
+    font-family: 'Sora';
+    src: url('./fonts/Sora/static/Sora-Regular.ttf');
+    font-weight: normal; /* 400 */
+    font-style: normal;
+}
+
+/* Semibold */
+@font-face {
+    font-family: 'Sora';
+    src: url('./fonts/Sora/static/Sora-SemiBold.ttf');
+    font-weight: 600; /* Semibold weight */
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Sora';
+    src: url('./fonts/Sora/static/Sora-Bold.ttf');
+    font-weight: bold; /* 700 */
+    font-style: normal;
+}
+* {
+  font-family: "Sora", sans-serif;
+}
